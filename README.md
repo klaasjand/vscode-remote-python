@@ -1,2 +1,2 @@
-# vscode-remote-python
-Develop Python in VS Code with a development container
+# VS Code remote Python development container
+Develop Python in VS Code with a Debian based development container
