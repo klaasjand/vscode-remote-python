@@ -1,7 +1,8 @@
 {
   "name": "Python Remote Container",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".."
   },
   "settings": {
     "terminal.integrated.defaultProfile.linux": "bash",

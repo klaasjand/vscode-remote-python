@@ -14,6 +14,10 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
         curl \
         git
 
+COPY .devcontainer/requirements.txt /tmp/requirements.txt
+RUN pip3 install -r /tmp/requirements.txt \
+    && rm -f /tmp/requirements.txt
+
 # Remove or comment out to use root user
 ENV PATH=${PATH}:/home/$USERNAME/.local/bin
 USER $USERNAME
