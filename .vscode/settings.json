@@ -1,6 +1,6 @@
 {
-    "python.linting.pylintArgs": [
-        "--disable",
-        "C0114,C0115,C0116"
-    ]
+  "pylint.args": [
+    "--disable",
+    "C0114,C0115,C0116"
+  ]
 }
